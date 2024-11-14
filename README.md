@@ -9,7 +9,7 @@ Package license: Apache-2.0
 
 Summary: Google Cloud Run API client library
 
-Development: https://github.com/googleapis/python-run
+Development: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-run
 
 Documentation: https://googleapis.dev/python/run/latest/index.html
 
