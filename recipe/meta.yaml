@@ -1,5 +1,5 @@
 {% set name = "google-cloud-run" %}
-{% set version = "0.10.15" %}
+{% set version = "0.10.16" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 31722acd12678bc7fc36e705b09aad650eb20f0e88b519abb063ed00d6779fde
+  sha256: 81e488956f71d39ec11fdbddd550ae9bfd9b8d72b82b42c8be42a2d56ac2deef
 
 build:
   noarch: python
@@ -27,7 +27,7 @@ requirements:
     # more restrictive version for python 3.13
     - proto-plus >=1.25.0,<2.0.0dev
     - protobuf >=3.20.2,<6.0.0dev,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5
-    - grpc-google-iam-v1 >=0.12.4,<1.0.0dev
+    - grpc-google-iam-v1 >=0.14.0,<1.0.0dev
 
 test:
   imports:
