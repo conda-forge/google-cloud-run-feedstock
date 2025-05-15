@@ -1,5 +1,5 @@
 {% set name = "google-cloud-run" %}
-{% set version = "0.10.17" %}
+{% set version = "0.10.18" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/google_cloud_run-{{ version }}.tar.gz
-  sha256: efb5413907897f50cc6cb6045f8e185b499d733d066325899a246ad954c9a518
+  sha256: 53e61a0b313ce266c16e57165a9cb29bb801799beb944fd87c206cfca72c76cc
 
 build:
   noarch: python
