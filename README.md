@@ -16,7 +16,6 @@ Documentation: https://googleapis.dev/python/run/latest/index.html
 Cloud Run API: is a managed compute platform that enables you to run
 containers that are invocable via requests or events.
 
-
 Current build status
 ====================
 
